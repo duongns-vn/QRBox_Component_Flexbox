@@ -23,25 +23,26 @@
     box-sizing: border-box;
     border-radius: 20px;
     padding: 16px;
+}
 
-    & img {
-        width: 100%;
-        border-radius: 10px;
+.imageBox_image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imageBox_content {
+    margin: 24px 0px;
+
+    .imageBox_heading {
+        font-size: 22px;
+        font-weight: 700;
     }
 
-    & .content {
-        margin: 24px 0px;
-
-        & .heading {
-            font-size: 22px;
-            font-weight: 700;
-        }
-
-        & .desc {
-            font-size: 15px;
-            letter-spacing: 0.188px;
-            margin: 16px 16px 0px;
-        }
+    .imageBox_desc {
+        font-size: 15px;
+        letter-spacing: 0.188px;
+        margin: 16px 16px 0px;
     }
 }
+
 
