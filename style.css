@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet');
+
 :root {
     --Light-Grey: #D5E1EF;
     --Dark-Navy: #1F314F;
@@ -5,7 +7,7 @@
     --White: #ffffff;
 }
 * {
-    font-family: Outfit, sans-serif;
+    font-family: "Outfit";
     text-align: center;
     margin: 0px;
 }
@@ -32,17 +34,19 @@
 
 .imageBox_content {
     margin: 24px 0px;
+}
 
-    .imageBox_heading {
+.imageBox_heading {
         font-size: 22px;
         font-weight: 700;
-    }
+        color: var(--Dark-Navy);
+}
 
-    .imageBox_desc {
+.imageBox_desc {
         font-size: 15px;
         letter-spacing: 0.188px;
         margin: 16px 16px 0px;
-    }
+        color: var(--Grey);
 }
 
 
